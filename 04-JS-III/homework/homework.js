@@ -228,7 +228,7 @@ function breakStatement(numero) {
   // Tu código:
   var array = [];
   var contador = numero;
-  for (let i = 0; i <= 10, i++){
+  for (let i = 0; i <= 10; i++){
     contador += 2;
     if (contador === i){
       break;
