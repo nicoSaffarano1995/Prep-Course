@@ -207,7 +207,7 @@ function mayorACien(array) {
   // Tu código:
   var arrayNuevo = [];
   for (let i = 0; i < array.length; i++){
-    if (arrayContiene[i] > 100){
+    if (array[i] > 100){
       arrayNuevo.push(array[i]);
     }
   }
